@@ -18,7 +18,7 @@
 <h4> Hosted </h4>
 <h6> Hosted in third party website </h6>
 <br/>
->> <p><a href="https://appetize.io/embed/1xuytzunwpzgjxkk4kqt0775dr?device=iphone6&scale=100&autoplay=false&orientation=portrait&deviceColor=black">Demo</a></p>
+<p><a href="https://appetize.io/embed/1xuytzunwpzgjxkk4kqt0775dr?device=iphone6&scale=100&autoplay=false&orientation=portrait&deviceColor=black">Demo</a></p>
 
 
 <h2> How to run / build / test </h2> <br/>
