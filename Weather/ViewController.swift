@@ -15,6 +15,7 @@ enum imageFormat: String{
 }
 
 class MainViewController: UIViewController {
+
     
     //properties
     
@@ -39,7 +40,7 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        searchTask = Client.sharedInstance().getForcastByCity("London,UK") { (weathers, error) in
+        searchTask = Client.sharedInstance().getForcastByCity("Dublin,IE") { (weathers, error) in
             if let weathers = weathers{
                 self.weathers = weathers
                 performUIUpdatesOnMain {
@@ -68,7 +69,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
         /* set cell defaults*/
         
         cell?.tempLabel.text = "\(Int(weather.temp!))"
-        cell?.locationLabel.text = "London, UK"
+        cell?.locationLabel.text = "Dublin,IE"
         cell?.weatherDescLabel.text = "\(weather.main!)"
         cell?.chanceOfRainLabel.text = "\(weather.clouds!)%"
         
