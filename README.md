@@ -5,7 +5,7 @@
 2. Gitbash - clone and commit our code to Gitlab.<br/>
 </p>
 <h3>Project requirement </h3>
-  >><h6>Build an app displaying the 5 day weather forecast for a location of your choice.</h6>
+  <h6>Build an app displaying the 5 day weather forecast for a location of your choice.</h6>
     <h6>Clear Comment in between code for understand purpose. <br/>  "// meaning of the code" </h6>
 
 <h3> Design Pattern </h3>
@@ -14,7 +14,7 @@
      <p> View  - This Object in charge of Viusual Representation of the Model and the controls the user can interact with(visual screen - table view).</p><br/>
       <p> Controller - The controller is the mediator that coordinates all the work. It accesses the data from the model and displays it with the views(manage model and view).</p><br/>
 
-<p> II </p> 
+ 
 <h4> Hosted </h4>
 <h6> Hosted in third party website </h6>
 <br/>
